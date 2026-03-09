@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>昨夜复盘 2026-03-08（北京时间）</title>
+  <style>
+    body { font-family: "Segoe UI", Arial, sans-serif; background:#0f141e; color:#e6edf3; margin:16px; }
+    .meta { margin: 10px 0 16px 0; padding:10px; border:1px solid #2b3648; background:#111a27; }
+    .meta span { display:inline-block; margin-right:16px; }
+    table { border-collapse:collapse; width:100%; margin-bottom:20px; }
+    th,td { border:1px solid #2b3648; padding:6px; vertical-align:top; }
+    th { background:#1b2535; }
+    tr:nth-child(even) { background:#121a28; }
+    img { max-width:440px; height:auto; border:1px solid #35465e; }
+    input { background:#0f141e; border:1px solid #2b3648; color:#e6edf3; padding:4px 8px; }
+    a { color:#7ab8ff; }
+  </style>
+  <script>
+    function filterSymbol() {
+      const q = (document.getElementById('symbolFilter').value || '').toUpperCase().trim();
+      const rows = document.querySelectorAll('table tbody tr');
+      rows.forEach(tr => {
+        const sym = (tr.children[1]?.innerText || '').toUpperCase();
+        tr.style.display = (!q || sym.includes(q)) ? '' : 'none';
+      });
+    }
+  </script>
+</head>
+<body>
+  <h2>昨夜复盘总览 | 2026-03-08 ET会话 | 时间展示=北京时间 | 窗口=full</h2>
+  <div class="meta">
+    <span>运行轮次=8</span>
+    <span>扫描TF总数=1056</span>
+    <span>策略命中(strict)=10</span>
+    <span>视觉候选(visual)=0</span>
+    <span>策略命中(策略表)=10</span>
+    <span>策略异常=0</span>
+    <span>推送成功数=0</span>
+  </div>
+  <p>先看：<a href="命中清单_策略命中.md" target="_blank">命中清单_策略命中.md</a> ｜ <a href="命中清单_策略命中.csv" target="_blank">命中清单_策略命中.csv</a></p>
+  <p>策略表：<a href="strategy_hits.csv" target="_blank">strategy_hits.csv</a> ｜ <a href="strategy_anomalies.csv" target="_blank">strategy_anomalies.csv</a></p>
+  <p>simple_view：<a href='../../../最新一轮/识别结果.csv' target='_blank'>最新一轮_识别结果.csv</a> ｜ <a href='../中文日报/识别结果.csv' target='_blank'>按日汇总/识别结果.csv</a> ｜ <a href='../中文日报/策略明细.csv' target='_blank'>按日汇总/策略明细.csv</a> ｜ <a href='../中文日报/命中清单_策略命中.csv' target='_blank'>按日汇总/命中清单_策略命中.csv</a> ｜ <a href='../中文日报/命中清单_策略命中.md' target='_blank'>按日汇总/命中清单_策略命中.md</a></p>
+  <div style="margin-bottom:12px;">
+    <label>按股票筛选：<input id="symbolFilter" oninput="filterSymbol()" placeholder="例如 TSLA" /></label>
+  </div>
+  
+  <h3>策略命中（strict）（10）</h3>
+<table><thead><tr><th>时间(北京时间)</th><th>股票</th><th>周期</th><th>规则窗口(北京时间)</th><th>命中详情</th><th>标注图</th><th>原图</th><th>run_id</th></tr></thead><tbody>
+<tr><td>2026-03-09 07:44:14</td><td>MP</td><td>4h</td><td>2026-03-07 16:00 ~ 2026-03-09 04:00</td><td>S1=123116, S2=123117, D=123117(red)</td><td>缺少图片源</td><td>-</td><td>20260308225941927229</td></tr>
+<tr><td>2026-03-09 05:44:44</td><td>MP</td><td>4h</td><td>2026-03-07 16:00 ~ 2026-03-09 04:00</td><td>S1=123116, S2=123117, D=123117(red)</td><td>缺少图片源</td><td>-</td><td>20260308205943682338</td></tr>
+<tr><td>2026-03-09 03:44:16</td><td>MP</td><td>4h</td><td>2026-03-07 12:00 ~ 2026-03-09 00:00</td><td>S1=123115, S2=123116, D=123116(red)</td><td>缺少图片源</td><td>-</td><td>20260308185944327675</td></tr>
+<tr><td>2026-03-09 01:43:54</td><td>MP</td><td>4h</td><td>2026-03-07 12:00 ~ 2026-03-09 00:00</td><td>S1=123115, S2=123116, D=123116(red)</td><td>缺少图片源</td><td>-</td><td>20260308165944361362</td></tr>
+<tr><td>2026-03-08 23:44:19</td><td>MP</td><td>4h</td><td>2026-03-07 08:00 ~ 2026-03-08 20:00</td><td>S1=123114, S2=123115, D=123115(red)</td><td>缺少图片源</td><td>-</td><td>20260308145942399206</td></tr>
+<tr><td>2026-03-08 21:44:14</td><td>MP</td><td>4h</td><td>2026-03-07 08:00 ~ 2026-03-08 20:00</td><td>S1=123114, S2=123115, D=123115(red)</td><td>缺少图片源</td><td>-</td><td>20260308125941713760</td></tr>
+<tr><td>2026-03-08 19:40:35</td><td>MP</td><td>4h</td><td>2026-03-07 04:00 ~ 2026-03-08 16:00</td><td>S1=123113, S2=123114, D=123114(red)</td><td>缺少图片源</td><td>-</td><td>20260308105942472087</td></tr>
+<tr><td>2026-03-08 17:44:04</td><td>MP</td><td>4h</td><td>2026-03-07 04:00 ~ 2026-03-08 16:00</td><td>S1=123113, S2=123114, D=123114(red)</td><td>缺少图片源</td><td>-</td><td>20260308085944426541</td></tr>
+<tr><td>2026-03-08 15:40:45</td><td>MP</td><td>4h</td><td>2026-03-07 00:00 ~ 2026-03-08 12:00</td><td>S1=123112, S2=123113, D=123113(red)</td><td>缺少图片源</td><td>-</td><td>20260308065941759690</td></tr>
+<tr><td>2026-03-08 13:40:47</td><td>MP</td><td>4h</td><td>2026-03-07 00:00 ~ 2026-03-08 12:00</td><td>S1=123112, S2=123113, D=123113(red)</td><td>缺少图片源</td><td>-</td><td>20260308045941148050</td></tr>
+</tbody></table>
+  <details open>
+    <summary>策略命中与异常（按策略）</summary>
+    <h3>策略命中（按策略）（10）</h3>
+<table><thead><tr><th>时间(北京时间)</th><th>股票</th><th>周期</th><th>策略</th><th>模式</th><th>状态</th><th>推送</th><th>原因</th><th>图</th></tr></thead><tbody>
+<tr><td>2026-03-09 07:44:14</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+<tr><td>2026-03-09 05:44:44</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+<tr><td>2026-03-09 03:44:16</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+<tr><td>2026-03-09 01:43:54</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+<tr><td>2026-03-08 23:44:19</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+<tr><td>2026-03-08 21:44:14</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+<tr><td>2026-03-08 19:40:35</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+<tr><td>2026-03-08 17:44:04</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+<tr><td>2026-03-08 15:40:45</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+<tr><td>2026-03-08 13:40:47</td><td>MP</td><td>4h</td><td>笑笑砖策略</td><td>live</td><td>hit</td><td>repeat_suppressed</td><td>repeat_suppressed</td><td>-</td></tr>
+</tbody></table>
+    <h3>策略异常（按策略）（0）</h3>
+<table><thead><tr><th>时间(北京时间)</th><th>股票</th><th>周期</th><th>策略</th><th>模式</th><th>状态</th><th>推送</th><th>原因</th><th>图</th></tr></thead><tbody>
+</tbody></table>
+  </details>
+  <details>
+    <summary>展开查看 visual 候选（用于人工复核）</summary>
+    <h3>视觉候选（visual）（0）</h3>
+<table><thead><tr><th>时间(北京时间)</th><th>股票</th><th>周期</th><th>规则窗口(北京时间)</th><th>命中详情</th><th>标注图</th><th>原图</th><th>run_id</th></tr></thead><tbody>
+</tbody></table>
+  </details>
+</body>
+</html>

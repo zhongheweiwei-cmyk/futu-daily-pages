@@ -1,0 +1,11 @@
+ts_cn,run_id,symbol,timeframe,strategy_id,strategy_name,strategy_mode,strategy_status,push_status,reason,source_image,night_image,image_status
+2026-03-09 07:44:14,20260308225941927229,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
+2026-03-09 05:44:44,20260308205943682338,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
+2026-03-09 03:44:16,20260308185944327675,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
+2026-03-09 01:43:54,20260308165944361362,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
+2026-03-08 23:44:19,20260308145942399206,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
+2026-03-08 21:44:14,20260308125941713760,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
+2026-03-08 19:40:35,20260308105942472087,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
+2026-03-08 17:44:04,20260308085944426541,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
+2026-03-08 15:40:45,20260308065941759690,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
+2026-03-08 13:40:47,20260308045941148050,MP,4h,buy_core,笑笑砖策略,live,hit,repeat_suppressed,repeat_suppressed,,,missing_source
