@@ -1,7 +1,7 @@
 {
   "session_et_date": "20260308",
   "session_label": "20260308_et",
-  "generated_at_cn": "2026-03-09 11:50:42",
+  "generated_at_cn": "2026-03-09 11:52:09",
   "homepage_mode": "latest_digest",
   "source": "simple_view_hit_csv",
   "rows": 10,
@@ -9,5 +9,5 @@
   "alert_count": 10,
   "failed_rows": 0,
   "health_warn": 0,
-  "public_base_url": ""
+  "public_base_url": "https://zhongheweiwei-cmyk.github.io/futu-daily-pages/"
 }
